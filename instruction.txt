@@ -1,0 +1,185 @@
+Football Tracker System — Roles and Responsibilities
+1. Admin
+
+Overview:
+The Admin is the highest-level user in the system. This role has full control over the entire platform, including user access, system settings, and administrative operations.
+
+Responsibilities:
+
+Manage user accounts (view, edit, deactivate, reset passwords).
+
+Configure system settings (e.g., age divisions, registration policies).
+
+Provide support and oversight for all other roles.
+
+Typical Screens / Pages:
+
+Admin Dashboard
+
+User Management
+
+System Settings
+
+About Admin / My Group
+
+2. Tournament Organizer
+
+Overview:
+The Tournament Organizer is responsible for creating and managing tournaments. This role oversees team enrollment, match scheduling, referee assignment, and result confirmation.
+
+Responsibilities:
+
+Create and edit tournament details (name, division, dates, registration windows).
+
+Approve or reject team enrollment requests.
+
+Schedule matches between enrolled teams.
+
+Assign referees to scheduled matches.
+
+Review match submissions and confirm results.
+
+View tournament standings and match history.
+
+Typical Screens / Pages:
+
+Organizer Dashboard
+
+Tournament Creation / Management
+
+Team Enrollment Review
+
+Match Scheduling
+
+Referee Assignment
+
+Match Results Review
+
+Standings & Leaderboards
+
+3. Coach
+
+Overview:
+The Coach is responsible for creating and managing teams, handling player rosters, enrolling teams in tournaments, and reviewing match submissions from referees.
+
+Responsibilities:
+
+Create new teams with details (name, division, logo, village).
+
+Add, edit, or remove players on a team roster.
+
+Review and approve or reject player join requests.
+
+Submit team enrollment requests for tournaments.
+
+Review match event submissions from referees.
+
+Confirm match results.
+
+View standings for enrolled tournaments.
+
+Typical Screens / Pages:
+
+Coach Dashboard
+
+My Teams
+
+Player Management (including pending requests)
+
+Tournament Enrollment
+
+Match Submissions Review
+
+Standings
+
+4. Referee
+
+Overview:
+The Referee is responsible for entering match events, such as goals and yellow/red card actions, for assigned matches. This role helps produce accurate match details.
+
+Responsibilities:
+
+View list of assigned matches.
+
+Enter match events (goals, yellow cards, red cards) with minute details.
+
+Submit match event reports for review by coach and organizer.
+
+Review past submissions for history.
+
+Typical Screens / Pages:
+
+Referee Dashboard
+
+My Matches
+
+Enter Match Events
+
+Past Submissions
+
+5. Player
+
+Overview:
+The Player is a team member who can view information related to their team, including match schedules and past match history with events. Players can request to join a team, but must be approved by the Coach. Profile picture upload is optional.
+
+Responsibilities:
+
+Request to join a team (approval required by Coach).
+
+View team details and roster once approved.
+
+View upcoming matches.
+
+View past match history with goals and cards.
+
+Typical Screens / Pages:
+
+Player Dashboard
+
+My Team
+
+Matches (upcoming & history)
+
+Join Team Requests / Status
+
+Profile Settings (optional photo)
+
+6. Public (Mobile App / Web – Unauthenticated User)
+
+Overview:
+The Public user is anyone browsing the mobile app or mobile-friendly website without logging in. This role has read-only access to public football data.
+
+Responsibilities:
+
+View list of active and past tournaments.
+
+Browse match listings (completed and upcoming).
+
+View match details with event breakdown (goals, cards).
+
+Search or filter teams by name, village, or division.
+
+View team profiles and standings.
+
+Typical Screens / Pages:
+
+Tournaments List
+
+Matches List
+
+Match Detail (modal)
+
+Team Profiles
+
+Search & Filter
+
+Standings / Leaderboards
+
+Summary Table — Role Capabilities
+Role	Main Capabilities
+Admin	Systemwide control, users, settings
+Organizer	Tournament management, enrollment approval, scheduling, referee assignment
+Coach	Team creation, player management, player approval, enrollment, match review
+Referee	Enter match events, submit match reports
+Player	Request to join team, view match & team info, view stats
+Public	View tournament & match details, search/filter

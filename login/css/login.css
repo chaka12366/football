@@ -431,7 +431,7 @@ form {
 /* ===== Footer Section ===== */
 .footer-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
